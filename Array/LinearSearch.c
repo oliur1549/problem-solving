@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int linearSearch(int arr[], int x, int n){
@@ -26,3 +27,4 @@ int main (){
 	
 	return 0;
 }
+
