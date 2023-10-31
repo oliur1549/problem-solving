@@ -1,6 +1,6 @@
 [Project]
-FileName=String.dev
-Name=String
+FileName=ArrayAll.dev
+Name=ArrayAll
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=1
 CompilerSettings=0000000000000000001000000
-UnitCount=5
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=matchingChar.cpp
+FileName=GetMissingNo.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=primeOrNot.cpp
+FileName=repeatElem.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -71,17 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=reverseArray.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit4]
-FileName=reverseString.cpp
+FileName=findMaxMin.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -91,7 +81,10 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=plainDrome.cpp
+FileName=removeDuplicate.cpp
+
+[Unit4]
+FileName=removeDuplicate.cpp
 CompileCpp=1
 Folder=
 Compile=1

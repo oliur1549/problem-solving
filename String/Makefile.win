@@ -4,9 +4,9 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = matchingChar.o
-LINKOBJ  = matchingChar.o
-LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3 -s
+OBJ      = matchingChar.o primeOrNot.o reverseArray.o reverseString.o plainDrome.o
+LINKOBJ  = matchingChar.o primeOrNot.o reverseArray.o reverseString.o plainDrome.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
 BIN      = String.exe
@@ -26,3 +26,15 @@ $(BIN): $(OBJ)
 
 matchingChar.o: matchingChar.cpp
 	$(CPP) -c matchingChar.cpp -o matchingChar.o $(CXXFLAGS)
+
+primeOrNot.o: primeOrNot.cpp
+	$(CPP) -c primeOrNot.cpp -o primeOrNot.o $(CXXFLAGS)
+
+reverseArray.o: reverseArray.cpp
+	$(CPP) -c reverseArray.cpp -o reverseArray.o $(CXXFLAGS)
+
+reverseString.o: reverseString.cpp
+	$(CPP) -c reverseString.cpp -o reverseString.o $(CXXFLAGS)
+
+plainDrome.o: plainDrome.cpp
+	$(CPP) -c plainDrome.cpp -o plainDrome.o $(CXXFLAGS)
